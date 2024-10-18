@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/codeenigma" mode="merge"/>
+    <filter root="/content/codeenigma" mode="merge"/>
+    <filter root="/content/dam/codeenigma" mode="merge">
+        <exclude pattern="/content/dam/codeenigma(/.*)?"/>
+        <include pattern="/content/dam/codeenigma/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/codeenigma/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/codeenigma" mode="merge"/>
+</workspaceFilter>

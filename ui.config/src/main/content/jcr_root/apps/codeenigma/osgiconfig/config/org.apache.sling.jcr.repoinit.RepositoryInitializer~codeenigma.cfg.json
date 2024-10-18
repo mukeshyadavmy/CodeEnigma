@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/codeenigma",
+        "create path (nt:unstructured) /content/dam/codeenigma/jcr:content",
+        "set properties on /content/dam/codeenigma/jcr:content\n  set cq:conf{String} to /conf/codeenigma\n  set jcr:title{String} to \"Code Enigma\"\nend"
+    ]
+}
